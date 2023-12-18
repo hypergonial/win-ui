@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\black.png" />
+    <None Remove="Assets\black_sel.png" />
+    <None Remove="Assets\board.png" />
+    <None Remove="Assets\empty.png" />
+    <None Remove="Assets\empty_sel.png" />
+    <None Remove="Assets\white.png" />
+    <None Remove="Assets\white_sel.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\black.png" />
+    <Resource Include="Assets\black_sel.png" />
+    <Resource Include="Assets\board.png" />
+    <Resource Include="Assets\empty.png" />
+    <Resource Include="Assets\empty_sel.png" />
+    <Resource Include="Assets\white.png" />
+    <Resource Include="Assets\white_sel.png" />
+  </ItemGroup>
+
+</Project>
