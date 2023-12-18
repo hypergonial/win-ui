@@ -21,7 +21,8 @@ jobs:
       with:
         dotnet-version: 7.0.x
 
-    - uses: actions/setup-java@v4
+    - name: Setup Java
+      uses: actions/setup-java@v4
       with:
         distribution: 'microsoft'
         java-version: '17'
