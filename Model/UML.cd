@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Model.FactionExtensions">
+    <Position X="5.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Square.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Board">
+    <Position X="5.25" Y="0.5" Width="2" />
+    <Members>
+      <Property Name="AllPos" Hidden="true" />
+      <Property Name="this" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAMAEBAAIAAAACECAAEBAAACAAIAAAAAECAAAAAABA=</HashCode>
+      <FileName>Board.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Inner" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Model.Player">
+    <Position X="10.25" Y="5.25" Width="1.75" />
+    <Members>
+      <Field Name="storedPieces" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAAEAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Game">
+    <Position X="8.25" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAIQAAMCEAAAABAAABAAAAAAAAEAABCAIAAA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ActiveFaction" />
+      <Property Name="Black" />
+      <Property Name="White" />
+      <Property Name="State" />
+      <Property Name="Board" />
+      <Property Name="ActivePlayer" />
+      <Property Name="WinState" />
+    </ShowAsAssociation>
+  </Class>
+  <Struct Name="Model.Square" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="0.5" Width="2.25" />
+    <Members>
+      <Property Name="this" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAEiAAAAAAACAAAAIAAAAAAAAAAAiA=</HashCode>
+      <FileName>Square.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Inner" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.3" />
+  </Struct>
+  <Struct Name="Model.Pos">
+    <Position X="1.25" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAEAAAIAAAAAAAAABIiA=</HashCode>
+      <FileName>Board.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Enum Name="Model.Faction">
+    <Position X="5.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAABAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Square.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.GameState">
+    <Position X="11.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAIBAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.WinState">
+    <Position X="11.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAQAAAAQAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Model.GameUpdateDelegate" Collapsed="true">
+    <Position X="8.25" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
